@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		"a {\n  text-decoration: none;\n}\n\n.current {\n  color: darkgreen;\n}"
+		"h1 {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  text-align: center;\n}\n\na {\n  text-decoration: none;\n}\n\n.current {\n  color: darkgreen;\n}\n\n.box.flex {\n  display: flex;\n  justify-content: center;\n}\n\nimg {\n  width: 50%;\n  height: auto;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,GACtB;;AAED,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,SAAS,GACjB"
+	"mappings": "ACAA,AAAA,EAAE,CAAC,EACD,WAAW,EAAE,mCAAmC,EAChD,UAAU,EAAE,MAAM,GACnB;;AAED,AAAA,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,GACtB;;AAED,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,SAAS,GACjB;;AAED,AAAA,IAAI,AAAA,KAAK,CAAC,EACR,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,GACxB;;AAED,AAAA,GAAG,CAAC,EACF,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,IAAI,GACb"
 }
