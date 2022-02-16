@@ -1,6 +1,12 @@
-h1 {
+.banner {
+  justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+}
+
+.banner-image {
+  max-width: 25%;
+  height: auto;
 }
 
 a {
@@ -16,7 +22,25 @@ a {
   justify-content: center;
 }
 
-img {
-  width: 50%;
-  height: auto;
+.box {
+  padding: .5rem;
+  height: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+
+  color: #84613D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #FDF9EA;
+  border-bottom: 1px solid #F9F2D6;
+  border-right: 1px solid #F9F2D6
+}
+
+.team-card {
+  max-width: 175px;
+  text-align: center;
+  background: white;
+  margin: .25rem;
+  padding: .25rem;
+  border: 2px solid #000;
+  border-radius: 4px;
 }
